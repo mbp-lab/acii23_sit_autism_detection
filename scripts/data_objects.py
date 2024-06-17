@@ -24,6 +24,7 @@ class SITDataset:
     path: Path
     raw: Path
     processed: Path
+    corrected: Path
     SIT_version: SITVersion
     labels: pd.DataFrame
     blacklist: []
